@@ -2,7 +2,7 @@ import unittest
 import Part1
 
 
-class Day1Test(unittest.TestCase):
+class Part1Test(unittest.TestCase):
     def testNoneMatching(self):
         self.assertEqual(Part1.solveCaptcha("1"), 0)
         self.assertEqual(Part1.solveCaptcha("16"), 0)
